@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(83, 94, 158);
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+label{
+    white-space: pre-wrap;
+}
+
+label[for*="language_option"]{
+    /* display: block; */
+}
+
+label[for="participant_comment"]{
+    font-size: 30px;
+    font-weight: bold;
+}
+input[type="checkbox"]{
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+input{
+    color: rgb(204, 50, 122);
+}
+
+label[for*="yes_option"]{
+    color: aliceblue;
+}
+
+footer {
+    background-color: rgb(0, 255, 255);
+}
