@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<header>
     <meta charset="UTF-8">
     <title>Zeref Survey Form</title>
     <link href="styles.css" rel="stylesheet">
     <h1> Survey about Something</h1>
-</head>
+</header>
 
 <body>
     <form id="survey_form">
-        <label for="participant_name">Your Name</label>
-        <input type="text" id="participant_name" placeholder="Enter your name" required> </br>
+        <section>
+            <label for="participant_name">Your Name</label></br>
+            <input type="text" id="participant_name" placeholder="Enter your name" required> </br>
+        </section>
 
-        <label for="participant_email">Your Email Address</label>
-        <input type="text" id="participant_email" placeholder="@gmail.com" required></br>
+        <section>
+            <label for="participant_email">Your Email Address</label></br>
+            <input type="text" id="participant_email" placeholder="@gmail.com" required></br>
+        </section>
 
-        <label for="participant_phone_number">Your Phone Number</label>
-        <input type="tel" id="participant_phone_number" placeholder="0325***" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></br>
+        <section>
+            <label for="participant_phone_number">Your Phone Number</label></br>
+            <input type="tel" id="participant_phone_number" placeholder="0325***" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required></br>
+        </section>
 
-        <label for="participant_age">Your Age</label>
-        <input type="text" id="participant_age" placeholder="Enter your age"> </br>
+        <section>
+            <label for="participant_age">Your Age</label></br>
+            <input type="text" id="participant_age" placeholder="Enter your age"> </br>
+        </section>
 
-        <label for="participant_school">Which school did you attend to</label>
-        <select name="participant_school" id="school_option">
-            <option value="FPT">FPT University</option>
-            <option value="Hutech">Hutech University</option>
-            <option value="Van_Lang">Van Lang University</option>
-            <option value="Hoa_Sen">Hoa Sen University</option>
-        </select></br>
+        <section>
+            <label for="participant_school">Which school did you attend to</label>
+            <select name="participant_school" id="school_option">
+                <option value="FPT">FPT University</option>
+                <option value="Hutech">Hutech University</option>
+                <option value="Van_Lang">Van Lang University</option>
+                <option value="Hoa_Sen">Hoa Sen University</option>
+            </select></br>
+        </section>
 
-        <label for="participant_graduate">Have you graduated yet?</label></br>
-        <label for="yes_option">Yes</label>
-        <input type="radio" id="yes_option" name="yes_no"></input>
-        <label for="no_option">No</label>
-        <input type="radio" id="no_option" name="yes_no" checked></input></br>
+        <section>
+            <label for="participant_graduate">Have you graduated yet?</label></br>
+            <label for="yes_option">Yes</label>
+            <input type="radio" id="yes_option" name="yes_no"></input>
+            <label for="no_option">No</label>
+            <input type="radio" id="no_option" name="yes_no" checked></input></br>
+        </section>
 
-        <label for="computer_language">Select Your Language and Framework</label></br>
-        <label for="language_option_1">C++</label>
-        <input type="checkbox" name="language_type" id="language_option_1"></input></br>
-        <label for="language_option_2">C#</label>
-        <input type="checkbox" name="language_type" id="language_option_2"></input></br>
-        <label for="language_option_3">Java</label>
-        <input type="checkbox" name="language_type" id="language_option_3"></input></br>
-        <label for="language_option_4">Robot</label>
-        <input type="checkbox" name="language_type" id="language_option_4"></input></br>
-        <label for="language_option_5">.Net</label>
-        <input type="checkbox" name="language_type" id="language_option_5"></input></br>
-        <label for="language_option_6">Python</label>
-        <input type="checkbox" name="language_type" id="language_option_6"></input></br>
+        <section>
+            <label for="computer_language">Select Your Language and Framework</label></br>
+            <label for="language_option_1">C++</label>
+            <input type="checkbox" name="language_type" id="language_option_1"></input></br>
+            <label for="language_option_2">C#</label>
+            <input type="checkbox" name="language_type" id="language_option_2"></input></br>
+            <label for="language_option_3">Java</label>
+            <input type="checkbox" name="language_type" id="language_option_3"></input></br>
+            <label for="language_option_4">Robot</label>
+            <input type="checkbox" name="language_type" id="language_option_4"></input></br>
+            <label for="language_option_5">.Net</label>
+            <input type="checkbox" name="language_type" id="language_option_5"></input></br>
+            <label for="language_option_6">Python</label>
+            <input type="checkbox" name="language_type" id="language_option_6"></input></br>
+        </section>
 
-        <label for="participant_comment">Comment and suggestion for the survey</label></br>
-        <textarea name="comment_suggestion" id="participant_comment" cols="70" rows="10"
-            placeholder="Comment Here"></textarea></br>
+        <section>
+            <label for="participant_comment">Comment and suggestion for the survey</label></br>
+            <textarea name="comment_suggestion" id="participant_comment" cols="70" rows="10"
+                placeholder="Comment Here"></textarea></br>
+        </section>
 
         <input type="submit" value="Submit"></input>
 
