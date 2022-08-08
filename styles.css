@@ -14,9 +14,6 @@ label{
     white-space: pre-wrap;
 }
 
-label[for*="language_option"]{
-    /* display: block; */
-}
 
 label[for="participant_comment"]{
     font-size: 30px;
