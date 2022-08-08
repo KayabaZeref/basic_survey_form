@@ -69,7 +69,13 @@ input[type="text"] {
     opacity: 0.5;
 }
 
+footer h3 a:visited{
+    color:orange;
+}
 
+footer h3 a:hover{
+   color:rgb(115, 125, 184)
+}
 
 footer {
     background-image: url("header2.jpg");
