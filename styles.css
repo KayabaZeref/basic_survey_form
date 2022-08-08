@@ -1,3 +1,6 @@
+header {
+    background-image: url("header2.jpg");
+}
 
 h1 {
     color: aliceblue;
@@ -17,7 +20,7 @@ body {
     padding-right: 2px;
 }
 
-section{
+section {
     border: solid white;
     border-radius: 5px;
     background-color: aliceblue;
@@ -25,50 +28,50 @@ section{
     margin-bottom: 20px;
 }
 
-label[for="participant_comment"]{
+label[for="participant_comment"] {
     font-size: 30px;
     font-weight: bold;
     border: 1px solid red;
 }
-input[name*="language_type"]{
+
+input[name*="language_type"] {
     border: 1px solid red;
-   /* margin: 0 auto;
+    /* margin: 0 auto;
    padding-right: 200px;
    width: 100%; */
 }
 
-label[for*="language_option"]{
+label[for*="language_option"] {
     border: 1px solid red;
     text-align: center;
 }
 
-input{
+input {
     color: rgb(204, 50, 122);
 }
 
-footer {
-    background-color: rgb(0, 255, 255);
+#survey_form {
+    line-height: 30px;
 }
 
-#survey_form{
-  line-height: 30px;
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.347);
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding-right: 50px;
+    /* margin-left: 100px; */
 }
 
-input[type="text"]{
-  border: none;
-  border-bottom: 1px solid black; 
-  outline: none;
-  background-color: transparent;
-  color: black;
-  padding-right: 50px;  
-  /* margin-left: 100px; */
-}
-
-::placeholder{
-    color: aliceblue;
+::placeholder {
+    color: black;
     opacity: 0.5;
 }
 
-header{
-    background-image: url("header2.jpg") ;
+
+
+footer {
+    background-image: url("header2.jpg");
+    color: aliceblue;
 }
