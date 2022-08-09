@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(115, 125, 184);
+    background-color: rgb(169, 179, 238);
     font-family: 'Times New Roman';
     width: 600px;
     margin: 0 auto;
@@ -26,16 +26,27 @@ section {
     background-color: aliceblue;
     line-height: 30px;
     margin-bottom: 20px;
+    position: relative;
+    height: 80px;
+}
+
+section[id="participant_comment"]{
+    position: relative;
+    height: 210px;
+}
+
+section[id="computer_language"]{
+    position: relative;
+    height: 230px;
 }
 
 label[for="participant_comment"] {
     font-size: 30px;
     font-weight: bold;
-    border: 1px solid red;
 }
 
 input[name*="language_type"] {
-    border: 1px solid red;
+    position: relative;
     /* margin: 0 auto;
    padding-right: 200px;
    width: 100%; */
@@ -56,12 +67,35 @@ input {
 
 input[type="text"] {
     border: none;
+    position: relative;
+    bottom: -15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.347);
     outline: none;
     background-color: transparent;
     color: black;
     padding-right: 50px;
     /* margin-left: 100px; */
+}
+
+textarea[name="comment_suggestion"]{
+    padding-right: 110px;
+    color: rgb(204, 50, 122);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="tel"]{
+    position: relative;
+    bottom: -15px;
+}
+
+select[name="participant_school"]{
+    position: relative;
+    bottom: -10px;
+}
+
+label[name="label_field"]{
+    font-size: 20px;
+
 }
 
 ::placeholder {
