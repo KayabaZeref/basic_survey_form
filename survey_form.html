@@ -11,17 +11,23 @@
 <body>
     <form id="survey_form">
         <section>
-            <label for="participant_name" name="label_field">Your Name</label></br>
+            <label for="participant_name" name="label_field">Your Name</label>
+            <label for="required_field">*</label>
+            </br>
             <input type="text" id="participant_name" placeholder="Enter your name" required> </br>
         </section>
 
         <section>
-            <label for="participant_email" name="label_field">Your Email Address</label></br>
+            <label for="participant_email" name="label_field">Your Email Address</label>
+            <label for="required_field">*</label>
+            </br>
             <input type="text" id="participant_email" placeholder="@gmail.com" required></br>
         </section>
 
         <section>
-            <label for="participant_phone_number" name="label_field">Your Phone Number</label></br>
+            <label for="participant_phone_number" name="label_field">Your Phone Number</label>
+            <label for="required_field">*</label>
+            </br>
             <input type="tel" id="participant_phone_number" placeholder="0325***" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                 required></br>
         </section>
@@ -32,7 +38,7 @@
         </section>
 
         <section>
-            <label for="participant_school" name="label_field">Which school did you attend to</label></br>
+            <label for="participant_school" name="label_field">Which University did you attend to</label></br>
             <select name="participant_school" id="school_option">
                 <option value="FPT">FPT University</option>
                 <option value="Hutech">Hutech University</option>
@@ -51,18 +57,18 @@
 
         <section id="computer_language">
             <label for="computer_language" name="label_field">Select Your Language and Framework</label></br>
-            <label for="language_option_1">C++</label>
-            <input type="checkbox" name="language_type" id="language_option_1"></input></br>
-            <label for="language_option_2">C#</label>
-            <input type="checkbox" name="language_type" id="language_option_2"></input></br>
-            <label for="language_option_3">Java</label>
-            <input type="checkbox" name="language_type" id="language_option_3"></input></br>
-            <label for="language_option_4">Robot</label>
-            <input type="checkbox" name="language_type" id="language_option_4"></input></br>
-            <label for="language_option_5">.Net</label>
-            <input type="checkbox" name="language_type" id="language_option_5"></input></br>
-            <label for="language_option_6">Python</label>
-            <input type="checkbox" name="language_type" id="language_option_6"></input></br>
+            <input type="checkbox" name="language_type" id="language_option_1"></input>
+            <label for="language_option_1">C++</label></br>
+            <input type="checkbox" name="language_type" id="language_option_2"></input>
+            <label for="language_option_2">C#</label></br>
+            <input type="checkbox" name="language_type" id="language_option_3"></input>
+            <label for="language_option_3">Java</label></br>
+            <input type="checkbox" name="language_type" id="language_option_4"></input>
+            <label for="language_option_4">Robot</label></br>
+            <input type="checkbox" name="language_type" id="language_option_5"></input>
+            <label for="language_option_5">.Net</label></br>
+            <input type="checkbox" name="language_type" id="language_option_6"></input>
+            <label for="language_option_6">Python</label></br>
         </section>
 
         <section id="participant_comment">
@@ -82,7 +88,8 @@
     <h3>Tel: 03268571562</h3>
     <h3>Mail: Example@gmail.com</h3>
     <h3>
-        <a href="https://www.linkedin.com/in/phuong-is-working/" alt="Website link to my Profile">My Profile</a>
+        <a href="https://www.linkedin.com/in/phuong-is-working/" alt="Website link to my Profile" target="_blank">My
+            Profile</a>
     </h3>
 </footer>
 
